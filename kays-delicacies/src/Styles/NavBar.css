@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{  
+    width: 100%;
+    line-height: 80px;
+    padding: 0px 60px;
+    background-color: rgb(13, 160, 13);
+    display: flex;
+}
+
+.navbar-logo{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: 'Sofia', cursive;
+    flex: 50%;
+    cursor: pointer;
+    padding-left: 40px;
+}
+
+.navbar-list{
+    flex: 50%;
+    text-align:right;
+}
+
+.navbar-list li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.navbar-list a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    text-transform: uppercase;
+    padding: 0 10px; 
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar-list a:hover{
+    color: darkorange;
+}
