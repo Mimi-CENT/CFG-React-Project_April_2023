@@ -7,6 +7,7 @@ import Menu from "./Components/Menu";
 import Reviews from "./Components/Reviews";
 import ContactUs from "./Components/ContactUs";
 import ErrorPage from './Components/ErrorPage';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       {/* last route to add = error */}
       <Route path="*" element={<ErrorPage />}/>
     </Routes>
-    {/* <Footer/> */}
+    <Footer/>
   </Router>
   );
 }
