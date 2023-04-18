@@ -1,0 +1,51 @@
+.form-control{
+    padding: 2rem 2rem;
+    border: 3px solid green;
+    display: inline-block;
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.form-control label{
+    display: block;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-control input{
+    display: block;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    height: 2rem;
+    width: 28rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    padding: 0 1rem;
+}
+
+.form{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.form-control textarea{
+    height: 10rem;
+    width: 28rem;
+    padding: 1rem;
+    font-size: 1rem;
+    display: block;
+    resize: none;
+}
+
+.form-control button{
+    font-size: 1.1rem;
+    margin: 2rem 0 0 0;
+    background-color: yellow;
+    color: green;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 3px solid rgb(5, 126, 5);
+    display: block;
+    min-height: 2rem;
+    min-width: 4rem;
+}
