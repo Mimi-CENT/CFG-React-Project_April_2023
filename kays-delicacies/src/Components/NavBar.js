@@ -1,10 +1,13 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import {GiHotMeal} from 'react-icons/gi';
+import '../Styles/NavBar.css'
 
 const NavBar = () => {
     return(
         <div className='navbar'> 
             <div className='navbar-logo'>
+                <GiHotMeal />
                 <h3>KAYS DELICACIES</h3>
             </div>
             <div className='navbar-list'>

@@ -8,18 +8,27 @@
     width: 100%;
     line-height: 80px;
     padding: 0px 60px;
-    background-color: rgb(13, 160, 13);
+    background-color: rgb(4, 105, 4);
+    border-bottom: 2px solid yellow;
     display: flex;
 }
 
 .navbar-logo{
-    color: white;
+    display: flex;
+    color: yellow;
     font-size: 30px;
     letter-spacing: 2px;
     font-family: 'Sofia', cursive;
     flex: 50%;
     cursor: pointer;
     padding-left: 40px;
+}
+
+.navbar-logo svg{
+    margin-top: 0.3rem;
+    margin-right: 0.5rem;
+    font-size: 3.5rem;
+    color: orange;
 }
 
 .navbar-list{
@@ -33,7 +42,7 @@
 }
 
 .navbar-list a{
-    color: white;
+    color: rgb(247, 247, 21);
     text-decoration: none;
     margin: 20px;
     text-transform: uppercase;
