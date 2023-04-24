@@ -23,7 +23,7 @@ const Menu = () => {
           <h3>Breakfast</h3>
           <div className="grid-container">
             <div className="grid-item">
-              <img src='../Images/Menu/Akara and pap.jpg' alt='akara and pap'/>
+              <img src='../Images/Menu/Afang soup.jpg' alt='akara and pap'/>
               <p>£6.00</p>
               <p>Akara and pap</p>
               <button onClick={() => handleOrderClick('Akara and pap')}>Order</button>
@@ -47,7 +47,7 @@ const Menu = () => {
               <button onClick={() => handleOrderClick('Spaghetti')}>Order</button>
             </div>
             <div className="grid-item">
-              <img src='../Images/Menu/Fried Plaintain and Egg.jpg' alt='plantain and egg'/>
+              <img src='../Images/Menu/Akara and pap.jpg' alt='plantain and egg'/>
               <p>£4.59</p>
               <p>Fried Plantain & egg</p>
               <button onClick={() => handleOrderClick('Fried plantain and egg!')}>Order</button>
@@ -68,25 +68,25 @@ const Menu = () => {
             <div className="grid-item">
               <img src='../Images/Menu/Peppersoup.jpg' alt='peppersoup with white rice'/>
               <p>£10.59</p>
-              <p>White rice and Peppersoup</p>
+              <p>Peppersoup & rice</p>
               <button onClick={() => handleOrderClick('White rice and Peppersoup')}>Order</button>
             </div>
             <div className="grid-item">
               <img src='../Images/Menu/Afang soup.jpg' alt='afang soup and fufu'/>
               <p>£17.99</p>
-              <p>Afang soup and Fufu</p>
+              <p>Afang soup</p>
               <button onClick={() => handleOrderClick('Afang soup and Fufu')}>Order</button>
             </div>
             <div className="grid-item">
               <img src='../Images/Menu/White rice and stew.jpeg' alt='White rice and red stew'/>
               <p>£11.00</p>
-              <p>White rice and red stew.</p>
+              <p>Rice and stew.</p>
               <button onClick={() => handleOrderClick('White rice and red stew.')}>Order</button>
             </div>
             <div className="grid-item">
               <img src='../Images/Menu/Oha soup and Eba.jpg' alt='Oha soup and Eba'/>
               <p>£17.99</p>
-              <p>Oha soup and Eba</p>
+              <p>Oha soup</p>
               <button onClick={() => handleOrderClick('Oha soup and Eba')}>Order</button>
             </div>
             <div className="grid-item">
@@ -98,7 +98,7 @@ const Menu = () => {
             <div className="grid-item">
               <img src='../Images/Menu/Afang soup.jpg' alt='afang soup and fufu'/>
               <p>£17.99</p>
-              <p>Afang soup and Fufu</p>
+              <p>Afang soup</p>
               <button onClick={() => handleOrderClick('Afang soup and Fufu')}>Order</button>
             </div>
           </div>
@@ -106,6 +106,93 @@ const Menu = () => {
 
       </div>
 
+      <div className='menu-parent'>
+        {/* DINNER */}
+        <div className='menu-type'>
+          <h3>Dinner</h3>
+          <div className="grid-container">
+            <div className="grid-item">
+              <img src='../Images/Menu/Peppersoup.jpg' alt='peppersoup with white rice'/>
+              <p>£10.59</p>
+              <p>Peppersoup & rice</p>
+              <button onClick={() => handleOrderClick('White rice and Peppersoup')}>Order</button>
+            </div>
+            <div className="grid-item">
+              <img src='../Images/Menu/Afang soup.jpg' alt='afang soup and fufu'/>
+              <p>£17.99</p>
+              <p>Afang soup</p>
+              <button onClick={() => handleOrderClick('Afang soup and Fufu')}>Order</button>
+            </div>
+            <div className="grid-item">
+              <img src='../Images/Menu/White rice and stew.jpeg' alt='White rice and red stew'/>
+              <p>£11.00</p>
+              <p>Rice and stew.</p>
+              <button onClick={() => handleOrderClick('White rice and red stew.')}>Order</button>
+            </div>
+            <div className="grid-item">
+              <img src='../Images/Menu/Oha soup and Eba.jpg' alt='Oha soup and Eba'/>
+              <p>£17.99</p>
+              <p>Oha soup</p>
+              <button onClick={() => handleOrderClick('Oha soup and Eba')}>Order</button>
+            </div>
+            <div className="grid-item">
+              <img src='../Images/Menu/Fried rice.jpg' alt='fried rice'/>
+              <p>£8.00</p>
+              <p>Fried Rice</p>
+              <button onClick={() => handleOrderClick('Fried plantain and egg!')}>Order</button>
+            </div>
+            <div className="grid-item">
+              <img src='../Images/Menu/Afang soup.jpg' alt='afang soup and fufu'/>
+              <p>£17.99</p>
+              <p>Afang soup</p>
+              <button onClick={() => handleOrderClick('Afang soup and Fufu')}>Order</button>
+            </div>
+          </div>
+        </div>
+
+        {/* SIDES */}
+        <div className='menu-type'>
+          <h3>Sides</h3>
+          <div className="grid-container">
+            <div className="grid-item">
+              <img src='../Images/Menu/Meatpie.jpg' alt='Meatpie'/>
+              <p>£2.99</p>
+              <p>Meatpie</p>
+              <button onClick={() => handleOrderClick('Meatpie')}>Order</button>
+            </div>
+            <div className="grid-item">
+              <img src='../Images/Menu/Isi ewu.jpg' alt='Isiewu (Goat head meal)'/>
+              <p>£10.99</p>
+              <p>Isiewu</p>
+              <button onClick={() => handleOrderClick('Afang soup and Fufu')}>Order</button>
+            </div>
+            <div className="grid-item">
+              <img src='../Images/Menu/Abacha.jpeg' alt='Abacha'/>
+              <p>£6.00</p>
+              <p>Abacha.</p>
+              <button onClick={() => handleOrderClick('Abacha')}>Order</button>
+            </div>
+            <div className="grid-item">
+              <img src='../Images/Menu/Meatpie.jpg' alt='Meatpie'/>
+              <p>£2.99</p>
+              <p>Meatpie</p>
+              <button onClick={() => handleOrderClick('Meatpie')}>Order</button>
+            </div>
+            <div className="grid-item">
+              <img src='../Images/Menu/Isi ewu.jpg' alt='Isiewu (Goat head meal)'/>
+              <p>£10.99</p>
+              <p>Isiewu</p>
+              <button onClick={() => handleOrderClick('Afang soup and Fufu')}>Order</button>
+            </div>
+            <div className="grid-item">
+              <img src='../Images/Menu/Abacha.jpeg' alt='Abacha'/>
+              <p>£6.00</p>
+              <p>Abacha.</p>
+              <button onClick={() => handleOrderClick('Abacha')}>Order</button>
+            </div>
+          </div>
+        </div>
+      </div>  
 
     </div>
   )
