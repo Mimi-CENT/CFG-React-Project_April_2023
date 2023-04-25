@@ -23,7 +23,7 @@ const Menu = () => {
           <h3>Breakfast</h3>
           <div className="grid-container">
             <div className="grid-item">
-              <img src='../Images/Menu/Afang soup.jpg' alt='akara and pap'/>
+              <img src='../Images/Menu/Akara and pap.jpg' alt='akara and pap'/>
               <p>£6.00</p>
               <p>Akara and pap</p>
               <button onClick={() => handleOrderClick('Akara and pap')}>Order</button>
@@ -192,7 +192,9 @@ const Menu = () => {
             </div>
           </div>
         </div>
-      </div>  
+      </div> 
+
+      <h2 className='promo'>Buy Breakfast + Lunch or Breakfast + Dinner and get 1 side free!! 💃💃</h2> 
 
     </div>
   )
