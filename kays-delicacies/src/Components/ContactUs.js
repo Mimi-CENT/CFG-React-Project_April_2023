@@ -6,8 +6,6 @@ const ContactUs = () => {
     <div>
       <form className='form'>
         <div className='form-control'>
-          {/* <label htmlFor='firstName'>First Name: </label>
-          <input type='text' id='firstName' name='firstName'/> */}
           <label htmlFor='fullName'>Full Name: </label>
           <input type='text' id='fullName' name='fullName'/>
           <label htmlFor='email'>E-mail Address: </label>

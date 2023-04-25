@@ -3,7 +3,7 @@
     border: 3px solid green;
     display: inline-block;
     text-align: left;
-    margin-top: 3rem;
+    margin-top: 3.2rem;
 }
 
 .form-control label{
@@ -29,12 +29,13 @@
 }
 
 .form-control textarea{
-    height: 10rem;
+    height: 7rem;
     width: 28rem;
     padding: 1rem;
     font-size: 1rem;
     display: block;
-    resize: none;
+    /* To disable textarea from being resized */
+    resize: none; 
 }
 
 .form-control button{

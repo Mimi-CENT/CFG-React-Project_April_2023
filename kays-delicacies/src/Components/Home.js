@@ -1,6 +1,7 @@
 import React from 'react'
 import { useNavigate } from "react-router-dom"
-import HomePageImage from './Images/home-page-copy.jpg'
+import HomePageImage from './Home_Image/home-page-copy.jpg'
+import '../Styles/Home.css'
 
 const Home = () => {
 
