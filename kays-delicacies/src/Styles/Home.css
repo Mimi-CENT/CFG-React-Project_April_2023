@@ -44,3 +44,12 @@
     color: lawngreen;
     box-shadow: 0 0px 25px yellow;
 }
+
+/* ERROR */
+.error{
+    display: block;
+    text-align: center;
+    margin: 215px 0;
+    font-size: 5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
