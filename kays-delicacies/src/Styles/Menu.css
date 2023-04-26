@@ -69,9 +69,11 @@
 
 .promo{
     font-style: italic;
-    color: rgb(17, 119, 50);
+    background-color: rgb(17, 119, 50);
     font-size: 1.8rem;
-    margin-top: 1rem;
+    margin: 1.5rem 0;
     display: inline-block;
-    background-color: yellow;
+    color: rgb(255, 255, 6);
+    padding: 1rem;
+    border: 5px solid rgb(225, 225, 11);
 }

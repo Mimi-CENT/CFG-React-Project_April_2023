@@ -16,9 +16,14 @@ const Menu = () => {
     <div className='menu-container'>
       <h2 className='menu-title'>OUR MENU</h2>
 
+     <div> 
+     <h2 className='promo'>Buy Breakfast + Lunch or Breakfast + Dinner and get 1 side free!! 💃💃</h2> 
+     </div>
+
       {/* Using grid layout */}
       <div className='menu-parent'>
         {/* BREAKFAST */}
+
         <div className='menu-type'>
           <h3>Breakfast</h3>
           <div className="grid-container">
@@ -193,8 +198,6 @@ const Menu = () => {
           </div>
         </div>
       </div> 
-
-      <h2 className='promo'>Buy Breakfast + Lunch or Breakfast + Dinner and get 1 side free!! 💃💃</h2> 
 
     </div>
   )
