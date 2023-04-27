@@ -98,7 +98,7 @@ const Menu = () => {
               <img src='../Images/Menu/Fried rice.jpg' alt='fried rice'/>
               <p>£8.00</p>
               <p>Fried Rice</p>
-              <button onClick={() => handleOrderClick('Fried plantain and egg!')}>Order</button>
+              <button onClick={() => handleOrderClick('Fried Rice and Chicken')}>Order</button>
             </div>
             <div className="grid-item">
               <img src='../Images/Menu/Afang soup.jpg' alt='afang soup and fufu'/>
@@ -144,7 +144,7 @@ const Menu = () => {
               <img src='../Images/Menu/Fried rice.jpg' alt='fried rice'/>
               <p>£8.00</p>
               <p>Fried Rice</p>
-              <button onClick={() => handleOrderClick('Fried plantain and egg!')}>Order</button>
+              <button onClick={() => handleOrderClick('Fried Rice and Chicken')}>Order</button>
             </div>
             <div className="grid-item">
               <img src='../Images/Menu/Afang soup.jpg' alt='afang soup and fufu'/>
@@ -169,7 +169,7 @@ const Menu = () => {
               <img src='../Images/Menu/Isi ewu.jpg' alt='Isiewu (Goat head meal)'/>
               <p>£10.99</p>
               <p>Isiewu</p>
-              <button onClick={() => handleOrderClick('Afang soup and Fufu')}>Order</button>
+              <button onClick={() => handleOrderClick('Isiewu')}>Order</button>
             </div>
             <div className="grid-item">
               <img src='../Images/Menu/Abacha.jpeg' alt='Abacha'/>
@@ -187,7 +187,7 @@ const Menu = () => {
               <img src='../Images/Menu/Isi ewu.jpg' alt='Isiewu (Goat head meal)'/>
               <p>£10.99</p>
               <p>Isiewu</p>
-              <button onClick={() => handleOrderClick('Afang soup and Fufu')}>Order</button>
+              <button onClick={() => handleOrderClick('Isiewu')}>Order</button>
             </div>
             <div className="grid-item">
               <img src='../Images/Menu/Abacha.jpeg' alt='Abacha'/>
